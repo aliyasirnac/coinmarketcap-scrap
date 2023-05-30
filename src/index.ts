@@ -20,7 +20,7 @@ const scrollDuration = 10000; // Kaydırma süresi (ms)
         "https://coinmarketcap.com" +
         data.querySelector("a")?.getAttribute("href");
       const name = data.querySelector(".kKpPOn")?.textContent;
-      const symbol = data.querySelector(" ")?.textContent;
+      const symbol = data.querySelector("p.coin-item-symbol")?.textContent;
       const price = data.querySelector(".clgqXO a span")?.textContent;
       const marketCap = data.querySelector(
         "span.sc-edc9a476-1.gqomIJ"
